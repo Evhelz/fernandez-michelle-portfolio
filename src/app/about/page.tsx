@@ -16,6 +16,24 @@ const floatingIcons = [
   { src: "/images/icon/GITHUB.png", alt: "GitHub", top: "50%", left: "-8%", size: 36, depth: 0.05, delay: "2s", duration: "6s" },
 ];
 
+const technologies = [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "Tailwind CSS",
+    "Figma",
+    "Git",
+    "GitHub",
+    "Vercel",
+    "PHP",
+    "Java"
+  ];
+
 export default function AboutPage() {
   const profileImage = "/images/chibi.png";
   const containerRef = useRef<HTMLDivElement>(null);
@@ -128,32 +146,16 @@ export default function AboutPage() {
               </div>
             );
           })}
-
-          {/* Tenure badge */}
-          <div className="absolute -bottom-6 -right-6 bg-white dark:bg-gray-900 p-5 rounded-2xl shadow-2xl border border-gray-100 dark:border-gray-800 hidden md:block z-30">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white">
-                <Rocket className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="font-headline font-bold text-lg">14 Weeks</div>
-                <div className="text-sm text-muted-foreground">Internship Tenure</div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Text content */}
         <div>
           <Badge className="mb-4">About Me</Badge>
           <h1 className="text-3xl md:text-4xl font-headline font-bold mb-6 leading-tight">
-            I'm <span className="text-primary italic">Michelle</span>. I build things for the modern web.
+            I'm <span className="text-primary italic">Michelle</span>, a software developer passionate about building for the modern web.
           </h1>
           <p className="text-base text-muted-foreground mb-4 leading-relaxed">
-            I'm Michelle T. Fernandez, a passionate developer currently navigating a specialized internship focused on Frontend and Backend systems. My goal is to bridge the gap between technical performance and beautiful user interfaces.
-          </p>
-          <p className="text-base text-muted-foreground mb-6 leading-relaxed">
-            Throughout my journey, I've developed a keen interest in how search engines interpret code and how we can build more accessible, high-performing digital experiences for everyone.
+            I specialize in frontend and backend development, with a focus on creating high-performance, accessible, and user-friendly web applications. I am passionate about the intersection of technology and user experience, and I am always looking for new ways to improve the digital world.
           </p>
 
           <div className="grid grid-cols-2 gap-4 mb-8">
@@ -203,28 +205,36 @@ export default function AboutPage() {
         </div>
       </div>
 
+      <section className="bg-muted/50 rounded-[3rem] p-8 md:p-12 mb-16">
+        <h2 className="text-2xl font-headline font-bold mb-8 text-center">Skills & Technologies</h2>
+        <div className="flex flex-wrap justify-center gap-4">
+          {technologies.map((tech) => (
+            <div key={tech} className="flex items-center gap-2 bg-white dark:bg-gray-800 border border-border px-4 py-2 rounded-lg">
+              <span className="font-bold text-sm">{tech}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="bg-muted/50 rounded-[3rem] p-8 md:p-12">
-        <h2 className="text-2xl font-headline font-bold mb-8 text-center">My Philosophy</h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <h2 className="text-2xl font-headline font-bold mb-8 text-center">Certificates</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="space-y-3">
-            <div className="text-primary font-headline font-bold text-3xl">01</div>
-            <h3 className="text-lg font-headline font-bold">Code with Purpose</h3>
+            <h3 className="text-lg font-headline font-bold">Certificate Name 1</h3>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              Every line of code should contribute to a better user experience or improved technical health.
+              Issuing Organization
             </p>
           </div>
           <div className="space-y-3">
-            <div className="text-primary font-headline font-bold text-3xl">02</div>
-            <h3 className="text-lg font-headline font-bold">Continuous Learning</h3>
+            <h3 className="text-lg font-headline font-bold">Certificate Name 2</h3>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              Documentation is just as important as the implementation itself. Learning out loud is my motto.
+              Issuing Organization
             </p>
           </div>
           <div className="space-y-3">
-            <div className="text-primary font-headline font-bold text-3xl">03</div>
-            <h3 className="text-lg font-headline font-bold">Atomic Design</h3>
+            <h3 className="text-lg font-headline font-bold">Certificate Name 3</h3>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              Building scalable systems from small, reusable components ensures consistency and performance.
+              Issuing Organization
             </p>
           </div>
         </div>

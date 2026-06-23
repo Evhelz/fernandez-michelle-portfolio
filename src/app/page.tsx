@@ -2,10 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { getProjects, getActivityLogs } from "@/lib/data-service";
+import { getProjects } from "@/lib/data-service";
 import { ProjectCard } from "@/components/molecules/ProjectCard";
 import { Badge } from "@/components/atoms/Badge";
-import { cn } from "@/lib/utils";
 import {
   ArrowRight,
   ChevronRight,
@@ -14,12 +13,9 @@ import {
   Mail,
   Code2,
   Sparkles,
-  Calendar,
-  ArrowUp,
-  MapPin,
 } from "lucide-react";
 import { useEffect, useState, useRef, useCallback } from "react";
-import { ActivityLog, Project } from "@/types";
+import { Project } from "@/types";
 
 const floatingIcons = [
   { src: "/images/icon/REACT.png",      alt: "React",       top: "8%",   left: "2%",   size: 52, depth: 0.06, delay: "0s",   duration: "6s"  },
@@ -45,22 +41,12 @@ const marqueeTechStack = [
 const marqueeItems = [...marqueeTechStack, ...marqueeTechStack];
 
 export default function Home() {
-  const [recentLogs, setRecentLogs] = useState<ActivityLog[]>([]);
   const [allProjects, setAllProjects] = useState<Project[]>([]);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
   const heroRef = useRef<HTMLElement>(null);
-
-  const timeline = recentLogs
-    .map(log => ({
-      date: log.date,
-      title: log.title,
-      description: log.summary,
-      type: "learning" as const,
-    }))
-    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
   const handleMouseMove = useCallback((e: MouseEvent) => {
     if (!heroRef.current) return;
@@ -77,9 +63,8 @@ export default function Home() {
 
   useEffect(() => {
     async function loadData() {
-      const [projects, logs] = await Promise.all([getProjects(), getActivityLogs()]);
+      const projects = await getProjects();
       setAllProjects(projects);
-      setRecentLogs(logs);
     }
     loadData();
 
@@ -249,21 +234,18 @@ export default function Home() {
           <div className="hero-text-col animate-slide-up relative z-10">
             <div className="flex items-center gap-2 mb-5 bg-primary/10 text-primary px-4 py-1.5 rounded-full w-fit border border-primary/20 font-bold text-xs uppercase tracking-widest">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-              Technical Intern &amp; Developer
+              Software Developer
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-headline font-bold mb-5 leading-[1.1]">
-              Building <span className="text-primary italic">Better</span> Web Experiences.
+              Passionate <span className="text-primary italic">Software</span> Developer.
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-7 max-w-xl leading-relaxed">
-              I&apos;m Michelle T. Fernandez, a technical intern focusing on high-performance Frontend Systems and SEO Audits. Bridging the gap between architecture and accessibility.
+              I&apos;m Michelle T. Fernandez, a software developer specializing in frontend technologies. I build accessible, high-performance web applications and have a strong interest in SEO and web architecture.
             </p>
             <div className="flex flex-wrap gap-4 mb-7">
               <Link href="#projects" className="px-6 py-2.5 bg-primary text-white rounded-xl font-bold hover:bg-primary/90 transition-all flex items-center gap-2 group shadow-lg shadow-primary/25 text-sm">
                 Explore My Work
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link href="/logs" className="px-6 py-2.5 bg-white dark:bg-gray-900 border border-border text-foreground rounded-xl font-bold hover:bg-muted transition-all flex items-center gap-2 text-sm">
-                Read Journey Logs <ChevronRight className="w-4 h-4" />
               </Link>
             </div>
             <div className="flex gap-5 items-center text-muted-foreground">
@@ -334,99 +316,8 @@ export default function Home() {
                     <Sparkles className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest">Latest Milestone</div>
+                    <div className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest">Latest Project</div>
                     <div className="text-sm font-bold text-foreground mt-0.5">FlowState Launch</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ════════ TIMELINE (ROADMAP) ════════ */}
-      <section className="container mx-auto px-4 z-10">
-        <div className="bg-primary/5 rounded-[3rem] border border-primary/10 p-6 md:p-10 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-60 h-60 bg-primary/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-
-          {/* Mobile timeline */}
-          <div className="lg:hidden">
-            <div className="mb-6">
-              <Badge className="mb-4">The Journey</Badge>
-              <h2 className="text-2xl font-headline font-bold mb-3">
-                Professional <span className="text-primary italic">Roadmap</span>
-              </h2>
-              <p className="text-muted-foreground text-sm max-w-md">
-                Tracing the technical evolution from foundational research to high-performance system deployments.
-              </p>
-            </div>
-            <div className="h-[380px] overflow-y-auto pr-3 custom-scrollbar space-y-5">
-              {timeline.map((event, index) => (
-                <div key={index} className="relative pl-10 border-l-2 border-primary/20">
-                  <div className="absolute left-0 top-3 -translate-x-1/2 w-4 h-4 rounded-full border-4 border-background bg-primary" />
-                  <div className="bg-white dark:bg-gray-900 p-4 rounded-2xl border border-border shadow-sm">
-                    <span className="text-primary font-bold text-xs uppercase tracking-widest">
-                      {new Date(event.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                    </span>
-                    <h3 className="text-base font-headline font-bold mt-1">{event.title}</h3>
-                    <p className="text-muted-foreground text-sm mt-1.5">{event.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Desktop timeline */}
-          <div className="hidden lg:flex gap-12 items-start">
-            <div className="w-[32%] lg:sticky lg:top-24 space-y-4 shrink-0">
-              <Badge>The Journey</Badge>
-              <h2 className="text-3xl font-headline font-bold leading-tight">
-                Professional <span className="text-primary italic">Roadmap</span>
-              </h2>
-              <p className="text-muted-foreground leading-relaxed text-sm">
-                Tracing the technical evolution from foundational research to high-performance system deployments.
-              </p>
-              <div className="flex flex-wrap gap-3 pt-2">
-                <div className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium">{timeline.length} Weeks Logged</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-amber-500" />
-                  <span className="text-sm font-medium">{timeline.length} Learnings</span>
-                </div>
-              </div>
-              <div className="h-px w-full bg-border" />
-              <p className="text-sm text-muted-foreground">Scroll through the timeline →</p>
-            </div>
-
-            <div className="flex-1 relative min-w-0">
-              <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-primary/5 to-transparent pointer-events-none z-10 rounded-b-2xl" />
-              <div className="max-h-[520px] overflow-y-auto pr-2 custom-scrollbar">
-                <div className="relative">
-                  <div className="absolute left-[13px] top-0 bottom-0 w-0.5 bg-primary/20 rounded-full" />
-                  <div className="space-y-4 py-1">
-                    {timeline.map((event, index) => (
-                      <div key={index} className="relative flex items-start pl-10">
-                        <div className="absolute left-0 top-5 flex items-center justify-center w-[26px] h-[26px] rounded-full border-[3px] border-background shadow-md shrink-0 z-10 bg-primary text-white">
-                          <Calendar className="w-3 h-3" />
-                        </div>
-                        <div className="flex-1 bg-white dark:bg-gray-900 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                          <div className="px-5 pt-4 pb-4">
-                            <div className="flex items-center justify-between mb-2">
-                              <span className="text-primary font-bold text-[11px] uppercase tracking-[0.12em]">
-                                {new Date(event.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                              </span>
-                              <span className="bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
-                                {event.type}
-                              </span>
-                            </div>
-                            <h3 className="text-base font-headline font-bold text-foreground leading-snug mb-1">{event.title}</h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
                   </div>
                 </div>
               </div>
@@ -460,14 +351,14 @@ export default function Home() {
           <div className="max-w-xl">
             <Badge className="mb-3">Portfolio</Badge>
             <h2 className="text-3xl md:text-4xl font-headline font-bold leading-tight">
-              Technical <span className="text-primary italic">Works</span>
+              My <span className="text-primary italic">Projects</span>
             </h2>
             <p className="text-muted-foreground mt-2 text-sm">
-              A curated collection of SEO audits, frontend architectures, and collaborative team applications developed during my internship.
+             A selection of my work, including frontend development, SEO audits, and collaborative projects.
             </p>
           </div>
           <Link href="/work" className="px-6 py-2.5 bg-muted hover:bg-primary hover:text-white rounded-xl font-bold transition-all flex items-center gap-2 text-sm">
-            View Archive <ArrowRight className="w-4 h-4" />
+            View All Projects <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -478,42 +369,6 @@ export default function Home() {
                 <span className="text-white font-bold text-sm">View details →</span>
               </div>
             </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ─── Activity Logs ─── */}
-      <section className="container mx-auto px-4 py-12 border-t z-10">
-        <div className="flex justify-between items-center mb-10">
-          <div>
-            <h2 className="text-2xl font-headline font-bold mb-2">Latest Insights</h2>
-            <p className="text-muted-foreground text-sm">Reflections and technical documentation from the current week.</p>
-          </div>
-          <Link href="/logs" className="hidden md:flex items-center gap-2 text-primary font-bold hover:underline text-sm">
-            View All Logs <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-        <div className="grid lg:grid-cols-3 gap-5">
-          {recentLogs.slice(0, 3).map((log) => (
-            <Link
-              href={`/logs/${log.slug}`}
-              key={log.slug}
-              className="group relative bg-white dark:bg-gray-900 border border-border p-5 rounded-2xl hover:border-primary/20 transition-all flex flex-col h-full overflow-hidden"
-            >
-              <span className="absolute inset-0 -z-10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700">
-                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-[shimmer_2s_ease-in-out_infinite]"></span>
-              </span>
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 bg-muted rounded-full">
-                  {new Date(log.date).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
-                </span>
-              </div>
-              <h3 className="text-lg font-headline font-bold group-hover:text-primary transition-colors line-clamp-2">{log.title}</h3>
-              <p className="text-muted-foreground text-sm mt-1 line-clamp-3 leading-relaxed">{log.summary}</p>
-              <div className="mt-auto pt-3 flex items-center gap-2 text-primary font-bold text-xs opacity-0 group-hover:opacity-100 transition-all">
-                Read entry <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </Link>
           ))}
         </div>
       </section>

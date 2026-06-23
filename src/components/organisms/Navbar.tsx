@@ -10,7 +10,6 @@ import Image from "next/image"; // <-- added for logo
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/work", label: "Work" },
-  { href: "/logs", label: "Logs" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];

@@ -1,15 +1,12 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { getProjects, getCategories, getActivityLogs } from "@/lib/data-service";
+import { getProjects, getCategories } from "@/lib/data-service";
 import { ProjectCard } from "@/components/molecules/ProjectCard";
-import { LogCard } from "@/components/molecules/LogCard";
 import { Badge } from "@/components/atoms/Badge";
-import { cn } from "@/lib/utils";
 import {
   Search,
   LayoutGrid,
-  FileText,
   Sparkles,
   X,
 } from "lucide-react";
@@ -21,15 +18,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ActivityLog, Project } from "@/types";
+import { Project } from "@/types";
 
 export default function WorkPage() {
-  const [activeTab, setActiveTab] = useState<string>("projects");
   const [categoryFilter, setCategoryFilter] = useState<string>("All");
   const [techFilter, setTechFilter] = useState<string>("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [projects, setProjects] = useState<Project[]>([]);
-  const [logs, setLogs] = useState<ActivityLog[]>([]);
 
   const [categories, setCategories] = useState<string[]>(["All"]);
 
@@ -40,13 +35,11 @@ export default function WorkPage() {
 
   useEffect(() => {
     async function loadData() {
-      const [proj, logs, cats] = await Promise.all([
+      const [proj, cats] = await Promise.all([
         getProjects(),
-        getActivityLogs(),
         getCategories(),
       ]);
       setProjects(proj);
-      setLogs(logs);
       setCategories(["All", ...cats]);
     }
     loadData();
@@ -63,12 +56,6 @@ export default function WorkPage() {
     return matchesCategory && matchesTech && matchesSearch;
   });
 
-  const filteredLogs = logs.filter(l =>
-    l.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    l.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    l.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
-
   const clearFilters = () => {
     setCategoryFilter("All");
     setTechFilter("All");
@@ -83,13 +70,13 @@ export default function WorkPage() {
       <header className="mb-20 max-w-4xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/5 text-primary text-sm font-bold mb-6 border border-primary/10">
           <Sparkles className="w-4 h-4" />
-          <span>Technical Portfolio & Learning Journal</span>
+          <span>My Technical Portfolio</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-headline font-bold mb-8 leading-tight">
-          Showcasing <span className="text-primary italic">Innovation</span> Through Action.
+          Showcasing <span className="text-primary italic">My</span> Work.
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-          Explore my technical journey through specialized audits, frontend architectures, and weekly build logs. Use the filters below to navigate by technology or project type.
+          Explore my technical journey through specialized audits, frontend architectures, and collaborative projects. Use the filters below to navigate by technology or project type.
         </p>
       </header>
 
@@ -102,14 +89,14 @@ export default function WorkPage() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <input
                 type="text"
-                placeholder="Search projects, logs, or tech..."
+                placeholder="Search projects, or tech..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-2.5 bg-white dark:bg-gray-900 border border-border rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all shadow-sm"
               />
             </div>
 
-            <Tabs value={activeTab} onValueChange={setActiveTab} className="shrink-0">
+            <Tabs value="projects" className="shrink-0">
               <TabsList className="bg-muted p-1 rounded-xl h-auto">
                 <TabsTrigger
                   value="projects"
@@ -120,16 +107,6 @@ export default function WorkPage() {
                              data-[state=active]:shadow-sm"
                 >
                   <LayoutGrid className="w-4 h-4" /> Projects
-                </TabsTrigger>
-                <TabsTrigger
-                  value="logs"
-                  className="rounded-lg px-4 py-2 font-bold text-xs flex items-center gap-2
-                             text-muted-foreground
-                             data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800
-                             data-[state=active]:text-primary
-                             data-[state=active]:shadow-sm"
-                >
-                  <FileText className="w-4 h-4" /> Logs
                 </TabsTrigger>
               </TabsList>
             </Tabs>
@@ -145,7 +122,6 @@ export default function WorkPage() {
           </div>
 
           {/* Filter Dropdowns (only when Projects tab active) */}
-          {activeTab === "projects" && (
             <div className="flex items-center gap-3 w-full md:w-auto">
               <Select value={categoryFilter} onValueChange={setCategoryFilter}>
                 <SelectTrigger className="w-[160px] h-10 rounded-xl border border-border bg-white dark:bg-gray-800 text-foreground text-xs font-bold uppercase tracking-wider">
@@ -189,13 +165,11 @@ export default function WorkPage() {
                 </SelectContent>
               </Select>
             </div>
-          )}
         </div>
       </div>
 
       {/* Main Content */}
       <div className="mt-12">
-        {activeTab === "projects" ? (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {filteredProjects.map((project) => {
               const coverImage =
@@ -220,20 +194,6 @@ export default function WorkPage() {
               </div>
             )}
           </div>
-        ) : (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredLogs.map((log) => (
-              <div key={log.slug} className="animate-in fade-in slide-in-from-bottom-8 duration-700">
-                <LogCard log={log} />
-              </div>
-            ))}
-            {filteredLogs.length === 0 && (
-              <div className="col-span-full text-center py-32 bg-muted/20 rounded-[3rem] border-2 border-dashed border-border">
-                <p className="text-muted-foreground font-medium">No activity logs found matching your search.</p>
-              </div>
-            )}
-          </div>
-        )}
       </div>
     </div>
   );
