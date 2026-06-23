@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Image from "next/image";
 import Link from "next/link";
@@ -240,7 +240,7 @@ export default function Home() {
               Passionate <span className="text-primary italic">Software</span> Developer.
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-7 max-w-xl leading-relaxed">
-              I&apos;m Michelle T. Fernandez, a software developer specializing in frontend technologies. I build accessible, high-performance web applications and have a strong interest in SEO and web architecture.
+              I’m Michelle T. Fernandez, a software developer specializing in frontend technologies. I build accessible, high-performance web applications and have a strong interest in SEO and web architecture.
             </p>
             <div className="flex flex-wrap gap-4 mb-7">
               <Link href="#projects" className="px-6 py-2.5 bg-primary text-white rounded-xl font-bold hover:bg-primary/90 transition-all flex items-center gap-2 group shadow-lg shadow-primary/25 text-sm">
