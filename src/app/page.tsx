@@ -363,12 +363,12 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {allProjects.map((project) => (
-            <div key={project.id} className="animate-in fade-in slide-in-from-bottom-12 duration-1000 group relative overflow-hidden rounded-3xl">
+            <Link href={`/work/${project.slug}`} key={project.id} className="animate-in fade-in slide-in-from-bottom-12 duration-1000 group relative overflow-hidden rounded-3xl block">
               <ProjectCard project={project} />
               <div className="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-black/60 via-black/10 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex justify-center pointer-events-none">
                 <span className="text-white font-bold text-sm">View details →</span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
