@@ -1,0 +1,292 @@
+[
+  {
+    "title": "Week 1 Internship Log (February 4–6, 2025)",
+    "slug": "week-1-internship-log",
+    "date": "2025-02-06",
+    "summary": "Completed introductory Sui and Move programming modules while developing UI/UX website templates for Makerspace Innovhub.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["Sui", "Move", "WordPress", "UI/UX"],
+    "gallery": [
+      "https://www.canva.com/design/DAG2_fGPToc/oIJuApMVHYiA0qud9TKpdA/view?utm_content=DAG2_fGPToc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hafb4bbf8a9",
+      "https://www.canva.com/design/DAG2_erSrx0/qY2wk-JAIc_1JyoInt7iVA/view?utm_content=DAG2_erSrx0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8b2c94a1d9",
+      "https://www.canva.com/design/DAG2VO8I-hE/G_whJmykWZt0opOebKP5uQ/view?utm_content=DAG2VO8I-hE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5a1dfa7648",
+      "https://www.canva.com/design/DAG2_bfqAgI/5ea3io0-chvFpKQswVRFSQ/view?utm_content=DAG2_bfqAgI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habdc12c2d5",
+      "https://www.canva.com/design/DAG2_fh3V7c/rCJiiHEvYwMBAYHqLDqZOQ/view?utm_content=DAG2_fh3V7c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7bc4ef5da6",
+      "/images/mih/contact.png",
+      "/images/mih/business.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Acquiring foundational knowledge of Sui and Move programming languages\n- Applying theoretical concepts in website design template development\n- Enhancing competencies in UI/UX design for web-based platforms\n\n## What I Learned\n\nThis week I studied:\n\n- Introduction to Sui blockchain technology\n- Fundamentals of Move programming language\n- UI/UX design principles\n- Website layout and template research\n- Responsive design planning\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Completed Module 1: Introduction to Sui\n- Progressed in Module 2: Introduction to Move with practical exercises\n- Conducted research on effective website design templates\n- Designed the Contact Us page template for the Makerspace Innovhub website\n- Continued developing the Business page template\n\n## Reflection\n\nThe objectives for the week were achieved through structured learning and practical application. Completing the introductory Sui module and engaging in Move programming exercises provided a strong theoretical foundation. Applying these concepts through website design tasks strengthened both technical proficiency and creative problem-solving skills.\n\n## Realizations\n\nThis week taught me the importance of continuous learning and applying newly acquired knowledge in practical scenarios.\n\nI developed skills in:\n\n- UI/UX Design\n- Research and planning\n- Adaptability\n- Problem-solving\n- Blockchain fundamentals\n\n## Technologies Used\n\n- Sui, Move, Figma, Next.js, Tailwind CSS"
+  },
+  {
+    "title": "Week 2 Internship Log (February 16–20, 2026)",
+    "slug": "week-2-internship-log",
+    "date": "2026-02-20",
+    "summary": "Developed and refined a vehicle comparison webpage design template while applying UI/UX principles and iterative design improvements.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": false,
+    "tags": ["Page Creation", "Iterative Design", "UI/UX"],
+    "gallery": [
+      "/images/hyundai/hyundai1.png",
+      "/images/hyundai/hyundai2.png",
+      "/images/hyundai/hyundai3.png",
+      "/images/hyundai/hyundai4.png",
+      "/images/hyundai/hyundai5.png",
+      "/images/hyundai/hyundai6.png",
+      "/images/hyundai/hyundai7.png",
+      "/images/hyundai/hyundai8.png",
+      "/images/hyundai/hyundai9.png",
+      "/images/hyundai/hyundai10.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Developing a comprehensive design template for a vehicle comparison webpage\n- Applying UI/UX design principles in creating structured and user-friendly layouts\n- Refining and improving design outputs through revisions and feedback implementation\n\n## What I Learned\n\nThis week I studied and practiced:\n\n- Advanced UI/UX layout structuring\n- Comparison page design strategies\n- Content hierarchy and readability\n- Iterative design improvement workflows\n- Feedback implementation and revision techniques\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Initiated the creation of a design template for the **2026 Hyundai Sonata vs. 2026 Nissan Altima** comparison webpage\n- Developed the initial layout and page structure\n- Enhanced the overall design and content organization\n- Implemented revisions to improve visual presentation and usability\n- Successfully completed all required revisions for the comparison page design\n\n## Reflection\n\nThe objectives for the week were accomplished through a systematic workflow involving design development and continuous refinement. The process started with creating an initial design structure and progressed through multiple revisions based on identified improvements and feedback.\n\n## Realizations\n\nThis week’s activities emphasized the importance of iterative design and continuous improvement in producing high-quality digital outputs.\n\nThrough these tasks, I developed stronger competencies in UI/UX Design, Critical evaluation, and User-centered design thinking.\n\n## Technologies Used\n\n- Figma, UI/UX Design Principles, Responsive Layout Design, Website Wireframing"
+  },
+  {
+    "title": "Week 3 Internship Log (February 23–27, 2026)",
+    "slug": "week-3-internship-log",
+    "date": "2026-02-27",
+    "summary": "Enhanced automotive comparison webpage templates, improved responsive layouts, explored SyncSnap project technologies, and gained hands-on production experience.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": false,
+    "tags": ["Responsive Design", "SyncSnap", "UI/UX"],
+    "gallery": [
+      "/images/chevrolet/chevrolet1.png",
+      "/images/chevrolet/chevrolet2.png",
+      "/images/chevrolet/chevrolet3.png",
+      "/images/chevrolet/chevrolet4.png",
+      "/images/chevrolet/chevrolet5.png",
+      "/images/chevrolet/chevrolet6.png",
+      "/images/chevrolet/chevrolet7.png",
+      "/images/chevrolet/chevrolet8.png",
+      "/images/chevrolet/chevrolet9.png",
+      "/images/chevrolet/chevrolet10.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Designing and enhancing comparison webpage templates for automotive content\n- Improving responsiveness and layout structure of web pages\n- Exploring tools, technologies, and system design concepts for the SyncSnap project\n- Gaining hands-on experience in production tasks such as heat press transfer printing\n\n## What I Learned\n\nThis week I studied and practiced:\n\n- Responsive web design techniques\n- UI/UX improvements for comparison pages\n- System workflow planning and brainstorming\n- Technology stack evaluation for web applications\n- Production workflows involving heat press transfer printing\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Created a design template for the **2026 Chevrolet Silverado 1500 vs. 2026 Toyota Tundra** comparison page\n- Improved responsiveness and overall page layout structure\n- Revised and enhanced the **2026 Hyundai Sonata vs. 2026 Nissan Altima** comparison page\n- Assisted in producing customized t-shirts and mugs using heat press transfer printing\n- Researched and evaluated tools and technologies for the SyncSnap project\n\n## Reflection\n\nThe objectives for the week were achieved through a combination of design development, iterative improvements, and exploratory research. Creating and refining webpage templates strengthened my ability to apply UI/UX principles, especially in ensuring responsiveness, usability, and visual consistency.\n\n## Realizations\n\nThis week’s tasks highlighted the importance of adaptability, continuous learning, and attention to detail in producing high-quality outputs.\n\nI gained a deeper appreciation for both the digital and physical aspects of project development.\n\n## Technologies Used\n\n- Figma, Responsive Web Design, UI/UX Principles, System Planning, Technology Stack Research"
+  },
+  {
+    "title": "Week 4 Internship Log (March 2–6, 2026)",
+    "slug": "week-4-internship-log",
+    "date": "2026-03-13",
+    "summary": "Enhanced SyncSnap UI/UX components, improved dashboard and workspace modules, and implemented database structures and interactive system features.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": false,
+    "tags": ["PHP", "Next.js", "SyncSnap", "UI/UX"],
+    "gallery": [
+      "/images/syncsnap/syncsnap1.png",
+      "/images/syncsnap/syncsnap2.png",
+      "/images/syncsnap/syncsnap3.png",
+      "/images/syncsnap/syncsnap4.png",
+      "/images/syncsnap/syncsnap5.png",
+      "/images/syncsnap/syncsnap6.png",
+      "/images/syncsnap/syncsnap7.png",
+      "/images/syncsnap/syncsnap8.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Designing and enhancing user interface components for the SyncSnap application\n- Improving user experience through layout refinement and usability enhancements\n- Developing and organizing core system functionalities including database structures\n- Implementing additional features that improve system efficiency and interactivity\n\n## What I Learned\n\nThis week I studied and practiced:\n\n- Database structure organization\n- Advanced dashboard UI refinement\n- Workspace management interfaces\n- Password validation and strength indicators\n- UI consistency and interaction patterns\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Created database tables for core system functionalities\n- Improved the UI/UX of landing and authentication pages\n- Enhanced workspace creation and joining modals\n- Integrated a password strength indicator in the registration page\n- Improved the Settings module including Profile, Password, and Appearance sections\n- Redesigned the Standup Form modal in Dashboard and Workspace modules\n- Enhanced Dashboard UI components such as Blockers, Streak, Bonuses, and Workspaces\n- Implemented sorting, filtering, and grid/list layout options for workspace cards\n\n## Reflection\n\nThis week’s activities strengthened my understanding of frontend and backend integration in building user-centered systems. Developing database structures and refining interface components improved my ability to create efficient and intuitive application workflows while maintaining usability and consistency.\n\n## Technologies Used\n\n- Next.js, Tailwind CSS, UI/UX Design, Database Structuring, Dashboard Systems"
+  },
+  {
+    "title": "Week 5 Internship Log (March 9–13, 2026)",
+    "slug": "week-5-internship-log",
+    "date": "2026-03-14",
+    "summary": "Refined SyncSnap interface components, improved navigation structures, and enhanced workspace management and notification systems.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": false,
+    "tags": ["Kanban", "UI Consistency", "SyncSnap", "Dashboard"],
+    "gallery": [
+      "/images/syncsnap/syncsnap1.png",
+      "/images/syncsnap/syncsnap2.png",
+      "/images/syncsnap/syncsnap3.png",
+      "/images/syncsnap/syncsnap4.png",
+      "/images/syncsnap/syncsnap5.png",
+      "/images/syncsnap/syncsnap6.png",
+      "/images/syncsnap/syncsnap7.png",
+      "/images/syncsnap/syncsnap8.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Enhancing and refining user interface components within the SyncSnap application\n- Improving system usability through layout adjustments and feature optimization\n- Ensuring consistency across modules and navigation elements\n- Contributing to system features through visual improvements and content structuring\n\n## What I Learned\n\nThis week I explored:\n\n- UI consistency techniques\n- Navigation structure optimization\n- Notification and timeline systems\n- Kanban board planning\n- Member performance visualization\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Fixed Dashboard UI alignment and improved the Standup Form\n- Enhanced Workspace Module UI and Workspace Detail tabs\n- Assisted in structuring content for the AI Report Generator\n- Fixed Recent Bonuses scrolling behavior\n- Initiated the setup of the Kanban Board UI\n- Improved Member Details and Blocker Details interfaces\n- Corrected notification timeline functionality with status indicators and timestamps\n- Added circular progress indicators to the Milestone Progress section\n\n## Reflection\n\nThe continuous refinement of system components improved my attention to detail, problem-solving abilities, and understanding of user-centered design. I learned the importance of maintaining organized and intuitive interfaces that improve usability and workflow efficiency.\n\n## Technologies Used\n\n- Kanban UI Design, Dashboard Systems, Notification Systems, React UI Components, UI/UX Design"
+  },
+  {
+    "title": "Week 6 Internship Log (March 16–19, 2026)",
+    "slug": "week-6-internship-log",
+    "date": "2026-03-19",
+    "summary": "Enhanced SyncSnap interface components, conducted system testing, and documented project outputs while participating in external technical activities.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": false,
+    "tags": ["System Testing", "Documentation", "Kanban", "SyncSnap"],
+    "gallery": [
+      "/images/syncsnap/syncsnap1.png",
+      "/images/syncsnap/syncsnap2.png",
+      "/images/syncsnap/syncsnap3.png",
+      "/images/syncsnap/syncsnap4.png",
+      "/images/syncsnap/syncsnap5.png",
+      "/images/syncsnap/syncsnap6.png",
+      "/images/syncsnap/syncsnap7.png",
+      "/images/syncsnap/syncsnap8.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Refining user interface components of the SyncSnap application\n- Conducting system testing for functionality and usability\n- Preparing project documentation and presentations\n- Gaining exposure to real-world technical activities\n\n## What I Learned\n\nThis week I practiced:\n\n- System testing workflows\n- UI refinement techniques\n- Technical documentation preparation\n- Presentation design\n- Real-world project exposure\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Refined the Kanban Board UI setup\n- Improved the Landing Page UI\n- Enhanced Workspace Details navigation and grid layouts\n- Conducted system testing for the SyncSnap application\n- Documented the Monthly Account/Project Report\n- Created presentation materials for project reporting\n- Attended the Base Build Mapandan activity\n\n## Reflection\n\nThis week strengthened my ability to balance system functionality, visual design, and technical communication. Conducting testing activities improved my analytical thinking and troubleshooting skills while preparing documentation enhanced my professional communication abilities.\n\n## Technologies Used\n\n- System Testing, UI/UX Design, Technical Documentation, Presentation Design, Kanban Systems"
+  },
+  {
+    "title": "Week 7 Internship Log (March 23–27, 2026)",
+    "slug": "week-7-internship-log",
+    "date": "2026-03-27",
+    "summary": "Enhanced gamification and dashboard systems while creating automotive webpage templates and improving UI consistency.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": false,
+    "tags": ["Gamification", "SOP", "Automotive SEO", "UI/UX"],
+    "gallery": [
+      "/images/ford/ford1.png",
+      "/images/ford/ford2.png",
+      "/images/ford/ford3.png",
+      "/images/ford/ford4.png",
+      "/images/ford/ford5.png",
+      "/images/ford/ford6.png",
+      "/images/ford/ford7.png",
+      "/images/ford/ford8.png",
+      "/images/ford/ford9.png",
+      "/images/ford/ford10.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Maintaining UI/UX consistency across application modules\n- Refining dashboard and gamification systems\n- Applying SOP-based workflows in page creation\n- Designing automotive webpage templates\n\n## What I Learned\n\nThis week I explored:\n\n- SOP-based workflow implementation\n- Gamification interface design\n- Dashboard organization strategies\n- Automotive content page structuring\n- UI consistency techniques\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Improved UI/UX consistency across application pages\n- Enhanced the Recent Bonuses dashboard section\n- Updated and reorganized the Gamification module UI\n- Reviewed SOP workflows for page creation\n- Created automotive comparison page templates\n- Developed a “Coming Soon” page template for the 2026 Ford Ranger in Danville, Kentucky\n\n## Reflection\n\nThis week highlighted the importance of structure, consistency, and procedural compliance in producing professional outputs. Following standard workflows improved efficiency while reinforcing systematic execution and attention to detail.\n\n## Technologies Used\n\n- UI/UX Design, Dashboard Systems, Gamification UI, SOP Workflow Systems, Responsive Design"
+  },
+  {
+    "title": "Week 8 Internship Log (April 6–10, 2026)",
+    "slug": "week-8-internship-log",
+    "date": "2026-04-10",
+    "summary": "Initiated the FlowState application with authentication, MongoDB integration, dashboard systems, and collaborative team management features.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["Next.js", "MongoDB", "Auth", "Dashboard"],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Initiating development of the FlowState web application\n- Establishing database connectivity and user data management\n- Implementing authentication and team management features\n- Enhancing navigation and usability\n\n## What I Learned\n\nThis week I studied and practiced:\n\n- Full-stack application setup\n- MongoDB Atlas integration\n- Authentication workflows\n- Team collaboration systems\n- Dashboard architecture\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Set up a Next.js project with App Router and Tailwind CSS\n- Connected the application to MongoDB Atlas\n- Developed Login and Signup authentication pages\n- Implemented user data storage functionality\n- Built the initial dashboard layout\n- Added team creation and joining functionality using invite codes\n- Added team switching through dropdown navigation\n- Implemented collapsible sidebar navigation systems\n\n## Reflection\n\nThis week strengthened my understanding of integrating frontend and backend technologies into a scalable system. Implementing authentication and team-based features improved my knowledge of application structure, user management, and intuitive navigation design.\n\n## Technologies Used\n\n- Next.js, MongoDB Atlas, Tailwind CSS, Authentication Systems, Dashboard Development"
+  },
+  {
+    "title": "Week 9 Internship Log (April 13–17, 2026)",
+    "slug": "week-9-internship-log",
+    "date": "2026-04-17",
+    "summary": "Developed task and blocker management systems with CRUD operations, permissions, and improved workflow management features.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["CRUD", "APIs", "Permissions", "Task Management"],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Developing task and blocker management functionalities\n- Improving system accuracy through bug fixes and data handling\n- Refining user interface clarity and usability\n- Implementing role-based controls and permissions\n\n## What I Learned\n\nThis week I practiced:\n\n- CRUD operation implementation\n- Role-based access control\n- Workflow management systems\n- Task and blocker tracking\n- API integration and state management\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Developed Daily Stand-up functionality with data storage\n- Implemented task fetching for My Tasks and All Tasks views\n- Added CRUD functionality for tasks and blockers\n- Implemented role-based edit and delete restrictions\n- Added task and blocker badges with comment functionality\n- Improved blocker status handling and permissions\n- Refined My Tasks and dashboard UI modules\n\n## Reflection\n\nThis week emphasized the importance of system accuracy, secure permissions, and intuitive workflow management. I strengthened my ability to implement scalable CRUD systems while ensuring usability, security, and clear interface organization.\n\n## Technologies Used\n\n- CRUD Operations, REST APIs, Role-Based Permissions, Task Management Systems, UI/UX Design"
+  },
+  {
+    "title": "Week 10 Internship Log (April 20–24, 2026)",
+    "slug": "week-10-internship-log",
+    "date": "2026-04-24",
+    "summary": "Implemented messaging systems, file uploads, pagination, and performance optimizations within the FlowState application.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["Messaging", "Pagination", "File Upload", "Optimization"],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Enhancing communication and real-time interaction features\n- Improving performance through optimization techniques\n- Implementing messaging, file handling, and pagination systems\n- Refining user interfaces for consistency and usability\n\n## What I Learned\n\nThis week I explored:\n\n- Real-time messaging systems\n- Infinite scroll pagination\n- File upload handling\n- Backend optimization techniques\n- Advanced dashboard refinement\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Implemented automatic SOD and EOD reporting in Team Feed chatboxes\n- Added reply functionality and @mentions in chat systems\n- Integrated file and image uploads with previews and captions\n- Implemented infinite scroll pagination using React Virtuoso\n- Optimized backend message APIs with efficient query handling\n- Added search and filtering functionality across modules\n- Designed the AI Insight Panel and Team Activity page\n- Improved Dashboard and Settings module UI consistency\n\n## Reflection\n\nThis week highlighted the importance of balancing system performance, collaboration features, and user experience in application development. I strengthened my skills in scalable feature implementation, optimization techniques, and responsive communication systems.\n\n## Technologies Used\n\n- React Virtuoso, Real-Time Messaging Systems, Pagination Systems, Backend Optimization, File Upload Systems, Dashboard Development"
+  },
+  {
+    "title": "Week 11 Internship Log (April 27 – May 2, 2026)",
+    "slug": "week-11-internship-log",
+    "date": "2026-05-02",
+    "summary": "Enhanced FlowState with real-time messaging, secure authentication, workstream management, and optimized dashboard performance.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["WebSockets", "Socket.IO", "Auth", "FlowState"],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Enhancing FlowState through real-time communication and collaboration features\n- Improving user profile management and settings functionalities\n- Optimizing dashboard performance, API efficiency, and data handling\n- Refining user interface layouts for better usability, consistency, and responsiveness\n- Implementing secure authentication and workstream management features\n\n## What I Learned\n\nThis week I explored and practiced:\n\n- WebSocket communication using Socket.IO\n- Real-time chat systems and synchronization\n- Secure authentication with bcrypt hashing\n- Workstream management and role-based workflows\n- Dashboard optimization and API efficiency improvements\n- Profile management and MongoDB file handling\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Enhanced the overall Dashboard UI for improved visual consistency\n- Redesigned the Team Activity page timeline with clearer activity hierarchy\n- Added overview cards for quick insights and blocker visibility\n- Improved Team Feed UI and resolved panel movement issues\n- Applied edit restrictions to SOD/EOD reports\n- Extended the signup flow with employment type, job roles, skills, resume upload, and profile photo storage in MongoDB\n- Updated user API routes to correctly return and persist profile data\n- Redesigned the Settings page with edit/view toggles and modern layouts\n- Implemented profile photo upload and update functionality\n- Integrated backend profile data into the sidebar for real-time updates\n- Fixed login issues using bcrypt password hashing and secure verification\n- Added resume upload, preview, and deletion functionalities\n- Resolved dashboard data overload caused by duplicate API requests and retry loops\n- Implemented private workstream functionality with admin-controlled member assignment\n- Added full CRUD operations for workstreams including member management and deletion\n- Set up a custom Next.js server with Socket.IO for WebSocket communication\n- Enabled real-time messaging for chats and workstreams\n- Replaced polling with WebSockets to improve responsiveness and efficiency\n- Fixed message duplication issues for accurate real-time synchronization\n\n## Reflection\n\nThe objectives for this week were achieved through the integration of communication systems, authentication security, and backend optimization within the FlowState application. Implementing WebSocket-based messaging improved real-time collaboration while secure authentication strengthened system reliability and user protection."
+  },
+  {
+    "title": "Week 12 Internship Log (May 4–9, 2026)",
+    "slug": "week-12-internship-log",
+    "date": "2026-05-09",
+    "summary": "Enhanced workstream management, role-based permissions, Socket.IO synchronization, and Daily Standup workflows within the FlowState application.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["Socket.IO", "Permissions", "Automation", "FlowState"],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Enhancing workstream management and role-based permissions\n- Improving real-time synchronization and collaboration using Socket.IO\n- Optimizing task management and blocker handling\n- Refining user interface layouts for improved readability and navigation\n- Enhancing Daily Standup and reporting workflows\n\n## What I Learned\n\nThis week I explored and practiced:\n\n- Advanced Socket.IO synchronization\n- Workstream visibility and permission handling\n- Real-time dashboard updates\n- Team collaboration workflows\n- Task and blocker automation systems\n- Role management and API permission controls\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Enhanced Daily Standup workflows with Workstream selection support\n- Fixed missing task, blocker, and focus area information in Team Feed messages\n- Improved the Daily Summary Panel with filtering and API fixes\n- Added workstream columns and filters in My Tasks\n- Refined Dashboard statistics visibility based on workstreams\n- Enhanced Team Activity with filtering and improved status indicators\n- Updated backend APIs to support workstream data and visibility logic\n- Implemented real-time Socket.IO updates across multiple modules\n- Redesigned the AI Insights interface with Overview, AI Digest, Risk Monitor, Sprint Planner, Bug & Security, and Standup tabs\n- Redesigned Edit Workstream Members UI with improved search functionality\n- Added admin role assignment and member management features\n- Implemented automatic carryover for unfinished blockers\n- Added reactions for message bubbles and SOD/EOD reports\n- Improved reactor hover tooltips with avatar and name displays\n- Optimized real-time synchronization for workstream activities\n- Refined My Tasks layouts with cleaner organization and spacing\n\n## Reflection\n\nThe objectives for this week were achieved through continuous improvements in workstream management, role-based permissions, and real-time synchronization within the FlowState application."
+  },
+  {
+    "title": "Week 13 Internship Log (May 11–14, 2026)",
+    "slug": "week-13-internship-log",
+    "date": "2026-05-14",
+    "summary": "Integrated AI-powered analytics, deadline monitoring, and advanced reporting systems into the FlowState application.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": ["AI Analytics", "Gemini AI", "Reporting", "PDF Export"],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png",
+      "/images/flowstate/flowstate6.png",
+      "/images/flowstate/flowstate7.png",
+      "/images/flowstate/flowstate8.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Enhancing AI Insights and analytics capabilities\n- Improving task and blocker management with intelligent suggestions and deadline tracking\n- Refining reporting and visualization features for better monitoring\n- Optimizing dashboard analytics and responsive UI components\n- Strengthening PDF export and reporting functionalities\n\n## What I Learned\n\nThis week I explored and practiced:\n\n- AI-powered analytics integration\n- Productivity and burnout monitoring systems\n- Advanced data visualization techniques\n- Deadline risk prediction systems\n- PDF report generation workflows\n- Team productivity analytics\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Fixed Team Activity API logic with actor tracking and dedicated timestamps\n- Improved Team Panel UI and Tasks/Blockers activity designs\n- Resolved My Tasks auto carry-over issues\n- Enhanced Landing Page Hero cursor effects and FAQ section\n- Integrated Gemini AI into the AI Insights page for daily, weekly, and monthly summaries\n- Added workstream selectors for report filtering\n- Built a Members tab displaying task progress and blockers with progress bars\n- Added downloadable PDF report support using react-to-print\n- Added deadline fields to Add Task and Add Blocker modals\n- Implemented AI-generated assignee suggestions\n- Designed a Risk & Productivity Monitor with Burnout Detection and Deadline Risk Prediction\n- Added risk classification systems for team members\n- Fixed graph rendering issues in downloadable PDF exports\n- Enhanced analytics with stacked bar charts and trend area charts\n- Added workstream health lists and performance gauge rings\n- Improved Dashboard AI Insight panels with updated graphs and analytics\n\n## Reflection\n\nThe objectives for this week were achieved through the integration of AI-powered insights, analytical dashboards, and intelligent productivity monitoring systems within the FlowState application."
+  },
+  {
+    "title": "Week 14 Internship Log (May 18–19, 2026)",
+    "slug": "week-14-internship-log",
+    "date": "2026-05-19",
+    "summary": "Focused on improving FlowState UI components, refining Sprint Planner layouts, completing system documentation, and finalizing personal portfolio enhancements.",
+    "author": "Michelle T. Fernandez",
+    "company": "Makerspace Innovhub OPC",
+    "featured": true,
+    "tags": [
+      "UI Enhancement",
+      "Sprint Planner",
+      "Documentation",
+      "Portfolio Development",
+      "AI Insights"
+    ],
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png",
+      "/images/flowstate/flowstate6.png",
+      "/images/flowstate/flowstate7.png",
+      "/images/flowstate/flowstate8.png"
+    ],
+    "content": "## Objectives\n\nThis week focused on:\n\n- Refining the user interface and layout consistency across FlowState modules\n- Improving Sprint Planner organization and usability\n- Fixing data-fetching issues in team member monitoring\n- Completing the official system documentation and presentation materials\n- Continuing the development and enhancement of the personal portfolio website\n\n## What I Learned\n\nThis week I explored and practiced:\n\n- Advanced responsive UI structuring and alignment techniques\n- Better table layout organization and dashboard composition\n- Side panel integration for AI-generated recommendations\n- Documentation preparation for system turnover and future developers\n- Portfolio UI/UX improvements and interactive design concepts\n\n## Accomplishments\n\nDuring the week, I successfully:\n\n- Improved UI alignment in the AI Insights page, including updates to the Monitor tab and Sprint Planner section\n- Fixed member profile fetching issues in the Members tab\n- Enhanced Sprint Planner tables for Blockers and Regular Tasks with cleaner styling and more consistent layouts\n- Moved AI Sprint Recommendations into a dedicated side panel for improved organization and usability\n- Completed the official FlowState system documentation\n- Created and finalized the FlowState PowerPoint presentation for project turnover\n- Improved responsive layouts and dashboard spacing across multiple sections\n- Finalized several updates and enhancements for my personal portfolio website\n- Continued improving interactive UI elements and overall visual consistency\n\n## Reflection\n\nThe objectives for this week were successfully achieved through continuous refinement of the FlowState system interface, improved Sprint Planner organization, and completion of the project documentation requirements. The experience strengthened my understanding of responsive UI design, system turnover preparation, and frontend optimization. Additionally, working on my personal portfolio allowed me to further enhance my skills in modern web design, layout composition, and interactive user experiences."
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "Abstract tech visualization",
+      "imageUrl": "https://picsum.photos/seed/devlogfolio-hero/1200/600",
+      "imageHint": "technology abstract"
+    },
+    {
+      "id": "project-seo",
+      "description": "SEO Audit dashboard",
+      "imageUrl": "https://picsum.photos/seed/seo-project/600/400",
+      "imageHint": "seo dashboard"
+    },
+    {
+      "id": "project-frontend",
+      "description": "Frontend UI Kit",
+      "imageUrl": "https://picsum.photos/seed/frontend-project/600/400",
+      "imageHint": "ui kit"
+    },
+    {
+      "id": "project-research",
+      "description": "UX Research findings",
+      "imageUrl": "https://picsum.photos/seed/research-project/600/400",
+      "imageHint": "ux research"
+    },
+    {
+      "id": "syncsnap-ui",
+      "description": "SyncSnap Interface Design",
+      "imageUrl": "https://picsum.photos/seed/syncsnap/800/600",
+      "imageHint": "app interface"
+    },
+    {
+      "id": "flowstate-dashboard",
+      "description": "FlowState Productivity Dashboard",
+      "imageUrl": "https://picsum.photos/seed/flowstate/800/600",
+      "imageHint": "dashboard design"
+    },
+    {
+      "id": "ai-analytics",
+      "description": "AI Analytics Visualization",
+      "imageUrl": "https://picsum.photos/seed/ai-viz/800/600",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "socket-io-viz",
+      "description": "Real-time synchronization visualization",
+      "imageUrl": "https://picsum.photos/seed/socket/800/600",
+      "imageHint": "network connection"
+    },
+    {
+      "id": "ai-report-gen",
+      "description": "AI Generated technical report",
+      "imageUrl": "https://picsum.photos/seed/report/800/600",
+      "imageHint": "ai report"
+    },
+    {
+      "id": "mih-contact",
+      "description": "MIH Contact Page Template",
+      "imageUrl": "https://picsum.photos/seed/mih-contact/800/600",
+      "imageHint": "contact page"
+    }
+  ]
+}

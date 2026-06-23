@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1",
+    "title": "MIH Website",
+    "slug": "mih-website",
+    "description": "A high-performance frontend implementation for the MIH platform focusing on modular design and speed.",
+    "fullDescription": "The MIH Website project involved building a scalable, accessible frontend architecture using Next.js. I designed a 'Lego‑style' component system that enabled rapid page assembly and consistent branding across the entire site. The implementation achieved a 95+ Lighthouse performance score through aggressive code splitting, optimal image loading strategies, and Tailwind CSS utility optimisation. I also integrated Framer Motion for micro‑interactions and page transitions, creating an engaging user experience while maintaining a zero‑runtime CSS approach for critical rendering paths.",
+    "techStack": ["WordPress", "UI/UX", "Tailwind CSS", "HTML"],
+    "completionDate": "February 2026",
+    "category": "Frontend",
+    "imageUrl": "/images/mih/contact.png",
+    "gallery": [
+      "/images/mih/contact.png",
+      "/images/mih/business.png"
+    ],
+    "featured": true,
+    "relatedLogs": ["week-1-internship-log"]
+  },
+  {
+    "id": "2",
+    "title": "2026 Hyundai Sonata vs. 2026 Nissan Altima Page Creation",
+    "slug": "hyundai-sonata-nissan-altima-audit",
+    "description": "Full page creation for a regional automotive comparison landing page targeting Cuyahoga Falls & Akron, Ohio.",
+    "fullDescription": "I created the complete landing page comparing the 2026 Hyundai Sonata and 2026 Nissan Altima, from initial content planning to final deployment. The work included researching high-intent local keywords like '2026 Sonata vs Altima Cuyahoga Falls', mapping competitor content gaps, and writing over 1,500 words of original, regionally-tailored copy. I built the page structure with clear heading hierarchy, comparison tables, and call-to-action sections. On the technical side, I implemented Vehicle and AggregateOffer schema markup, optimised all images with WebP and lazy loading, and inline critical CSS to achieve a 30% reduction in Largest Contentful Paint. I also crafted location-specific meta titles and descriptions to improve visibility in the Akron–Canton area, and set up internal links to dealership inventory pages. The result was a high-performing, conversion-ready page that significantly increased organic visibility for long-tail local queries.",
+    "techStack": ["Page Creation", "Performance Audit", "Content Strategy"],
+    "completionDate": "February 2026",
+    "category": "Page Creation",
+    "imageUrl": "/images/hyundai/hyundai1.png",
+    "gallery": [
+      "/images/hyundai/hyundai1.png",
+      "/images/hyundai/hyundai2.png",
+      "/images/hyundai/hyundai3.png",
+      "/images/hyundai/hyundai4.png",
+      "/images/hyundai/hyundai5.png",
+      "/images/hyundai/hyundai6.png",
+      "/images/hyundai/hyundai7.png",
+      "/images/hyundai/hyundai8.png",
+      "/images/hyundai/hyundai9.png",
+      "/images/hyundai/hyundai10.png"
+    ],
+    "featured": true,
+    "relatedLogs": ["week-2-internship-log"]
+  },
+  {
+    "id": "3",
+    "title": "2026 Chevrolet Silverado 1500 vs. 2026 Toyota Tundra",
+    "slug": "silverado-vs-tundra-comparison",
+    "description": "Data-driven page creation for a high-intent truck comparison, built for maximum mobile performance.",
+    "fullDescription": "I took ownership of creating the Silverado 1500 vs. Tundra comparison page from the ground up, focusing on both engaging content and exceptional Core Web Vitals. After a deep dive into user intent and competitor page analysis, I structured the page with a logical flow: hero section with a quick winner summary, detailed side‑by‑side specs, towing and payload comparisons, and a FAQ section using FAQ schema. I wrote all copy, emphasising key differentiators that local truck buyers care about. For performance, I identified oversized images as the main bottleneck, replaced them with modern WebP formats at correct resolutions, and applied lazy loading throughout. I inlined critical CSS and deferred non‑essential scripts, raising the mobile Lighthouse score to 92. I also implemented internal links to relevant inventory and financing pages to capture high‑intent commercial traffic, turning the page into an effective lead‑generation asset.",
+    "techStack": ["Page Creation", "Performance Audit", "Content Strategy"],
+    "completionDate": "March 2026",
+    "category": "Page Creation",
+    "imageUrl": "/images/chevrolet/chevrolet1.png",
+    "gallery": [
+      "/images/chevrolet/chevrolet1.png",
+      "/images/chevrolet/chevrolet2.png",
+      "/images/chevrolet/chevrolet3.png",
+      "/images/chevrolet/chevrolet4.png",
+      "/images/chevrolet/chevrolet5.png",
+      "/images/chevrolet/chevrolet6.png",
+      "/images/chevrolet/chevrolet7.png",
+      "/images/chevrolet/chevrolet8.png",
+      "/images/chevrolet/chevrolet9.png",
+      "/images/chevrolet/chevrolet10.png"
+    ],
+    "featured": false,
+    "relatedLogs": ["week-3-internship-log"]
+  },
+  {
+    "id": "4",
+    "title": "SyncSnap",
+    "slug": "syncsnap",
+    "description": "A modern web application facilitating instant synchronization and data sharing for technical teams.",
+    "fullDescription": "SyncSnap is a real‑time collaboration platform designed for technical documentation teams. As the frontend lead, I built the UI with React and TypeScript, leveraging Socket.io for live data synchronisation across multiple clients. I implemented optimistic UI updates and state reconciliation to ensure a seamless user experience even during network latency. The architecture follows a modular component pattern with Tailwind CSS for styling, achieving a 100% Lighthouse accessibility score. Key features include inline commenting, version history visualisation, and a multi‑user presence system. Performance was optimised through selective rendering, memoisation, and efficient WebSocket subscription management.",
+    "techStack": ["React", "PHP", "TypeScript", "Socket.io", "Tailwind CSS"],
+    "completionDate": "March 2026",
+    "category": "Frontend",
+    "imageUrl": "/images/syncsnap/syncsnap1.png",
+    "gallery": [
+      "/images/syncsnap/syncsnap1.png",
+      "/images/syncsnap/syncsnap2.png",
+      "/images/syncsnap/syncsnap3.png",
+      "/images/syncsnap/syncsnap4.png",
+      "/images/syncsnap/syncsnap5.png",
+      "/images/syncsnap/syncsnap6.png",
+      "/images/syncsnap/syncsnap7.png",
+      "/images/syncsnap/syncsnap8.png"
+    ],
+    "featured": true,
+    "relatedLogs": ["week-4-internship-log", "week-5-internship-log", "week-6-internship-log"]
+  },
+  {
+    "id": "6",
+    "title": "Sibol",
+    "slug": "sibol-on-base",
+    "description": "A smart farming assistance platform designed to help farmers manage agricultural activities digitally.",
+    "fullDescription": "Sibol on Base is a smart farming assistance platform built to support farmers in managing daily agricultural operations through a centralized and user-friendly system. The platform allows users to monitor crop progress, manage farming tasks, record harvests and expenses, and organize farm-related information efficiently. Developed using modern web technologies, the system focuses on improving productivity, accessibility, and decision-making for farmers and agricultural communities. Sibol aims to promote technology-driven farming by providing a simple, organized, and scalable digital solution for modern agriculture.",
+    "techStack": ["Next.js", "React", "Tailwind CSS", "Base"],
+    "completionDate": "March 2026",
+    "category": "Base Application",
+    "imageUrl": "/images/sibol/sibol1.png",
+    "gallery": [
+      "/images/sibol/sibol1.png",
+      "/images/sibol/sibol2.png",
+      "/images/sibol/sibol3.png",
+      "/images/sibol/sibol4.png",
+      "/images/sibol/sibol5.png",
+      "/images/sibol/sibol6.png",
+      "/images/sibol/sibol7.png",
+      "/images/sibol/sibol8.png",
+      "/images/sibol/sibol9.png"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "2026 Ford Ranger - Danville, Kentucky Model Page",
+    "slug": "ford-ranger-danville-audit",
+    "description": "End-to-end page creation for the 2026 Ford Ranger launch in the Danville, Kentucky market.",
+    "fullDescription": "I built and optimised the complete model page for the 2026 Ford Ranger targeting Danville, Kentucky. The page creation process started with local keyword research, uncovering high‑opportunity phrases like 'new Ford Ranger Danville' and '2026 Ranger for sale KY'. I crafted all on‑page content — including trim-level overviews, feature highlights, and a customised FAQ section — with local relevance at its core. To support future updates, I designed a modular content blueprint that could easily accommodate new specs and inventory feeds. I implemented Vehicle schema markup and local business structured data to strengthen visibility in Google's local pack, and added canonical tags to prevent duplicate content issues. I also optimised the page for crawl efficiency with a clean, flat URL structure and breadcrumb navigation. The final page launched with a projected 25% increase in organic traffic for the Danville area, driven by its strong technical foundation and locally‑tuned content.",
+    "techStack": ["Page Creation", "Performance Audit", "Content Strategy"],
+    "completionDate": "March 2026",
+    "category": "Page Creation",
+    "imageUrl": "/images/ford/ford1.png",
+    "gallery": [
+      "/images/ford/ford1.png",
+      "/images/ford/ford2.png",
+      "/images/ford/ford3.png",
+      "/images/ford/ford4.png",
+      "/images/ford/ford5.png",
+      "/images/ford/ford6.png",
+      "/images/ford/ford7.png",
+      "/images/ford/ford8.png",
+      "/images/ford/ford9.png",
+      "/images/ford/ford10.png"
+    ],
+    "featured": false,
+    "relatedLogs": ["week-7-internship-log"]
+  },
+  {
+    "id": "7",
+    "title": "FlowState",
+    "slug": "flowstate",
+    "description": "A minimalist productivity dashboard designed to keep developers in the 'zone'.",
+    "fullDescription": "FlowState is a deeply minimal productivity dashboard that reduces cognitive load for developers. I built the entire frontend with Next.js, Node.js, and TypeScript. The application includes a custom task manager with drag‑and‑drop ordering, a Pomodoro timer, and an ambient sound generator with Web Audio API. To maintain a perfect 100/100 Lighthouse score, I employed extreme code splitting, dynamic imports, and a strict atomic CSS strategy via Tailwind. The UI follows a monochromatic palette with subtle blur effects to minimise visual noise. User settings are persisted locally using IndexedDB, and all animations respect prefers‑reduced‑motion. This project refined my skills in performance budgeting and accessibility‑first design.",
+    "techStack": ["Next.js", "React", "Gemini AI", "Tailwind CSS", "MongoDB", "Socket.io"],
+    "completionDate": "April 2026",
+    "category": "Backend",
+    "imageUrl": "/images/flowstate/flowstate1.png",
+    "gallery": [
+      "/images/flowstate/flowstate1.png",
+      "/images/flowstate/flowstate2.png",
+      "/images/flowstate/flowstate3.png",
+      "/images/flowstate/flowstate4.png",
+      "/images/flowstate/flowstate5.png",
+      "/images/flowstate/flowstate6.png",
+      "/images/flowstate/flowstate7.png",
+      "/images/flowstate/flowstate8.png"
+    ],
+    "featured": true,
+    "relatedLogs": [
+      "week-8-internship-log",
+      "week-9-internship-log",
+      "week-10-internship-log",
+      "week-11-internship-log",
+      "week-12-internship-log",
+      "week-13-internship-log",
+      "week-14-internship-log"
+    ]
+  }
+]
