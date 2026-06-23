@@ -1,4 +1,4 @@
-import { getProjectBySlug, getProjects, getActivityLogs } from "@/lib/data-service";
+import { getProjectBySlug, getProjects } from "@/lib/data-service";
 import { Badge } from "@/components/atoms/Badge";
 import { notFound } from "next/navigation";
 import { Calendar, ArrowLeft, ArrowRight, BookOpen, Terminal } from "lucide-react";
@@ -32,8 +32,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
     notFound();
   }
 
-  const allLogs = await getActivityLogs();
-  const relatedLogs = allLogs.filter(log => project.relatedLogs?.includes(log.slug));
+  const relatedLogs: any[] = []; // temp fix for missing getActivityLogs
 
   return (
     <div className="container max-w-5xl mx-auto px-4 py-12">
