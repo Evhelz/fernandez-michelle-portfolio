@@ -1,5 +1,5 @@
 // lib/data-service.ts
-import { Project, ActivityLog, TimelineEvent } from '@/types';
+import { Project, TimelineEvent } from '@/types';
 import { PlaceHolderImages } from './placeholder-images';
 
 /**
@@ -41,23 +41,6 @@ export async function getFeaturedProjects(): Promise<Project[]> {
 export async function getCategories(): Promise<string[]> {
   const projects = await getProjects();
   return Array.from(new Set(projects.map(p => p.category)));
-}
-
-export async function getActivityLogs(): Promise<ActivityLog[]> {
-  const module = await import('@/data/logs.json');
-  const logsData: ActivityLog[] = module.default;
-
-  return logsData.map(log => ({
-    ...log,
-    gallery: log.gallery?.map(imgId =>
-      PlaceHolderImages.find(phi => phi.id === imgId)?.imageUrl || imgId
-    )
-  }));
-}
-
-export async function getLogBySlug(slug: string): Promise<ActivityLog | undefined> {
-  const logs = await getActivityLogs();
-  return logs.find(l => l.slug === slug);
 }
 
 export function getTimelineEvents(): TimelineEvent[] {

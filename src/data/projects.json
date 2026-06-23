@@ -13,8 +13,7 @@
       "/images/mih/contact.png",
       "/images/mih/business.png"
     ],
-    "featured": true,
-    "relatedLogs": ["week-1-internship-log"]
+    "featured": true
   },
   {
     "id": "2",
@@ -38,8 +37,7 @@
       "/images/hyundai/hyundai9.png",
       "/images/hyundai/hyundai10.png"
     ],
-    "featured": true,
-    "relatedLogs": ["week-2-internship-log"]
+    "featured": true
   },
   {
     "id": "3",
@@ -63,8 +61,7 @@
       "/images/chevrolet/chevrolet9.png",
       "/images/chevrolet/chevrolet10.png"
     ],
-    "featured": false,
-    "relatedLogs": ["week-3-internship-log"]
+    "featured": false
   },
   {
     "id": "4",
@@ -86,8 +83,7 @@
       "/images/syncsnap/syncsnap7.png",
       "/images/syncsnap/syncsnap8.png"
     ],
-    "featured": true,
-    "relatedLogs": ["week-4-internship-log", "week-5-internship-log", "week-6-internship-log"]
+    "featured": true
   },
   {
     "id": "6",
@@ -133,8 +129,7 @@
       "/images/ford/ford9.png",
       "/images/ford/ford10.png"
     ],
-    "featured": false,
-    "relatedLogs": ["week-7-internship-log"]
+    "featured": false
   },
   {
     "id": "7",
@@ -156,15 +151,58 @@
       "/images/flowstate/flowstate7.png",
       "/images/flowstate/flowstate8.png"
     ],
-    "featured": true,
-    "relatedLogs": [
-      "week-8-internship-log",
-      "week-9-internship-log",
-      "week-10-internship-log",
-      "week-11-internship-log",
-      "week-12-internship-log",
-      "week-13-internship-log",
-      "week-14-internship-log"
-    ]
+    "featured": true
+  },
+  {
+    "id": "8",
+    "title": "LERA: Learning Review Application",
+    "slug": "lera-learning-review-app",
+    "description": "An application for reviewers with flashcard sets and practice tests.",
+    "fullDescription": "LERA is a comprehensive learning review application designed to help users prepare for exams and tests. It features customizable flashcard sets, practice tests with different question formats, and progress tracking. The backend is built with Laravel and PHP, while the mobile application is developed using React Native and Expo.",
+    "techStack": ["Laravel", "PHP", "React Native", "Expo", "OpenAI"],
+    "completionDate": "Not Specified",
+    "category": "Academic Project",
+    "imageUrl": "/images/placeholder.png",
+    "gallery": [],
+    "featured": false
+  },
+  {
+    "id": "9",
+    "title": "StoryTold",
+    "slug": "storytold-app",
+    "description": "A mobile application for storytelling.",
+    "fullDescription": "StoryTold is a mobile application that allows users to create and share stories. It is built with React Native and Expo, and it uses Firebase for its backend services, including authentication and data storage.",
+    "techStack": ["React Native", "Expo", "Firebase"],
+    "completionDate": "Not Specified",
+    "category": "Academic Project",
+    "imageUrl": "/images/placeholder.png",
+    "gallery": [],
+    "featured": false
+  },
+  {
+    "id": "10",
+    "title": "IRIS",
+    "slug": "iris-app",
+    "description": "A web application for resort and hotel management.",
+    "fullDescription": "IRIS is a web application for managing resort and hotel reservations and operations. It is built with PHP and Laravel, and it uses MySQL for its database. The system helps manage bookings, customer information, and room availability.",
+    "techStack": ["PHP", "Laravel", "MySQL"],
+    "completionDate": "Not Specified",
+    "category": "Academic Project",
+    "imageUrl": "/images/placeholder.png",
+    "gallery": [],
+    "featured": false
+  },
+  {
+    "id": "11",
+    "title": "Resortvation",
+    "slug": "resortvation-design",
+    "description": "A UI/UX design for a resort reservation system.",
+    "fullDescription": "Resortvation is a UI/UX design project for a resort reservation system. The design was created in Figma and focuses on providing a user-friendly and intuitive booking experience. It includes wireframes, mockups, and prototypes for the entire reservation flow.",
+    "techStack": ["Figma"],
+    "completionDate": "Not Specified",
+    "category": "Academic Project",
+    "imageUrl": "/images/placeholder.png",
+    "gallery": [],
+    "featured": false
   }
 ]

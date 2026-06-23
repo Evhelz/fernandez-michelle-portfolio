@@ -5,7 +5,6 @@ import { z } from 'genkit';
 
 import {
   getProjects,
-  getActivityLogs,
   getProjectBySlug,
 } from '@/lib/data-service';
 
@@ -43,7 +42,9 @@ const getMichelleBio = ai.defineTool(
   },
   async () => {
     return `
-Michelle T. Fernandez is a Bachelor of Science in Information Technology (BSIT) student at Universidad de Dagupan and currently serves as a Technical Intern at Makerspace Innovhub OPC.
+Michelle T. Fernandez is a Bachelor of Science in Information Technology (BSIT) student at Universidad de Dagupan (2022-2026) and currently serves as a Technical Intern at Makerspace Innovhub OPC.
+
+She holds a certification in Information Communication Technology - CSS from Mangaldan National High School (2020-2022).
 
 She specializes in frontend and full-stack web development, UI/UX design, responsive systems, and collaborative web applications.
 
@@ -143,33 +144,6 @@ const getProjectDetails = ai.defineTool(
 );
 
 /* -------------------------------------------------------------------------- */
-/*                           ACTIVITY LOGS TOOL                               */
-/* -------------------------------------------------------------------------- */
-
-const listActivityLogs = ai.defineTool(
-  {
-    name: 'listActivityLogs',
-    description: "Returns Michelle's internship activity logs.",
-    inputSchema: z.void(),
-    outputSchema: z.array(
-      z.object({
-        title: z.string(),
-        summary: z.string(),
-        date: z.string(),
-      })
-    ),
-  },
-  async () => {
-    const logs = await getActivityLogs(); // already awaited correctly
-    return logs.map((log) => ({
-      title: log.title,
-      summary: log.summary,
-      date: log.date,
-    }));
-  }
-);
-
-/* -------------------------------------------------------------------------- */
 /*                                SKILLS TOOL                                 */
 /* -------------------------------------------------------------------------- */
 
@@ -248,6 +222,59 @@ This experience strengthened her expertise in full-stack development, scalable a
 );
 
 /* -------------------------------------------------------------------------- */
+/*                              EDUCATION TOOL                              */
+/* -------------------------------------------------------------------------- */
+
+const getEducation = ai.defineTool(
+  {
+    name: 'getEducation',
+    description: 'Returns Michelle’s educational background.',
+    inputSchema: z.void(),
+    outputSchema: z.object({
+      tertiary: z.string(),
+      secondary: z.string(),
+    }),
+  },
+  async () => {
+    return {
+      tertiary: 'Bachelor of Science in Information Technology, Universidad de Dagupan (2022-2026)',
+      secondary: 'Information Communication Technology - CSS, Mangaldan National High School (2020-2022)',
+    };
+  }
+);
+
+/* -------------------------------------------------------------------------- */
+/*                       SEMINARS & CERTIFICATIONS TOOL                       */
+/* -------------------------------------------------------------------------- */
+
+const getSeminarsAndCertifications = ai.defineTool(
+  {
+    name: 'getSeminarsAndCertifications',
+    description: 'Returns a list of Michelle’s seminars and certifications.',
+    inputSchema: z.void(),
+    outputSchema: z.array(z.string()),
+  },
+  async () => {
+    return [
+      'Computer Hardware Servicing NC II - TESDA',
+      'Salesforce VIP Program - SMARTBRIDGE',
+      'ORACLE Academy - Database Programming with SQL',
+      'CCNA: Enterprise Networking, Security, and Automation',
+      'Cybersecurity Essentials',
+      'Introduction to Cybersecurity',
+      'CCNA: Switching, Routing, and Wireless Essentials (SRWE)',
+      'CCNA: Introduction to Networks (CCNAv7)',
+      'Knowledge Festival 2023 - Fundamentals of Data Mining and Robotics',
+      'Knowledge Festival 2024 - The Future InSite: AI Transforming Vision and Education',
+      'Knowledge Festival 2025 - Emerging Technologies: Shaping the Future of Digital Innovation',
+      'Build Based IRL Workshop',
+      'A(I) Hybrid Collaboration and Agentic AI Development Within Governance',
+    ];
+  }
+);
+
+
+/* -------------------------------------------------------------------------- */
 /*                          FALLBACK MODEL LIST                               */
 /* -------------------------------------------------------------------------- */
 
@@ -295,8 +322,10 @@ Michelle Information:
 
 Guidelines:
 - If users ask about projects, use listProjects first and then getProjectDetails.
-- If users ask about internship experience, use getInternshipSummary or listActivityLogs.
+- If users ask about internship experience, use getInternshipSummary.
 - If users ask about technical expertise, use getSkills.
+- If users ask about education, use getEducation.
+- If users ask about seminars or certifications, use getSeminarsAndCertifications.
 - Mention technologies, responsibilities, and achievements naturally.
 - If information is unavailable, politely suggest contacting Michelle through the Contact page.
 
@@ -327,9 +356,10 @@ This experience strengthened her skills in full-stack development, scalable appl
           getMichelleBio,
           listProjects,
           getProjectDetails,
-          listActivityLogs,
           getSkills,
           getInternshipSummary,
+          getEducation,
+          getSeminarsAndCertifications,
         ],
       });
 
